@@ -7,13 +7,13 @@ const users = []
 
 app.post('/users', (req, res) =>{
 
-    console.log(req)
+   users.push(req.body)
 
     res.send('Ok,post')
 })
 
 app.get('/users', (req, res) => {
-    res.send('Funcionando?')
+    res.json(users)
 })
 
 app.listen(3000)
