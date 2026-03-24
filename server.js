@@ -20,4 +20,7 @@ app.listen(3000)
 /*
   (node --watch {nome do arquivo}) = ira reniciar o servidor sempre que ocorrer uma mudança no codigo
   (Ctrl + C) = fechar o servidor
- */
+
+  gabrielsilvacabrerisso_db_user
+  0Gs6iCxSdwxPIrPE
+*
